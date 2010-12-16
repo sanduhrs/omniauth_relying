@@ -16,7 +16,7 @@ function omniauth_client_profile_modules() {
     'openid', 'openid_client_ax', 'openid_profile', 'openid_sso',
     'openid_cp_field',
     // Contrib
-    'features','content', 'text', 'content_profile',
+    'features','content', 'text', 'content_profile', 'auto_nodetitles',
     );
 }
 
