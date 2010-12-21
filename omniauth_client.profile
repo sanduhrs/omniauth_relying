@@ -120,7 +120,7 @@ function omniauth_client_profile_tasks(&$task, $url) {
     'http://axschema.org/namePerson/prefix' => 'field_name_person_prefix',
     'http://axschema.org/namePerson/first' => 'field_name_person_first',
     'http://axschema.org/namePerson/last' => 'field_name_person_last',
-    'http://axschema.org/birthDate' => 'field_birth_date',
+    //'http://axschema.org/birthDate' => 'field_birth_date',
     'http://axschema.org/contact/postalCode/home' => 'field_contact_postal_code_home',
     'http://axschema.org/contact/city/home' => 'field_contact_city_home',
   ));
@@ -186,3 +186,4 @@ function omniauth_client_cleanup() {
     )
   );
 }
+
