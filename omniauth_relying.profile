@@ -32,7 +32,7 @@ function omniauth_relying_profile_modules() {
     'text',
 
     // Features
-    'omniauth_relying',
+    'omniauth_relying_core',
   );
 }
 
@@ -218,7 +218,7 @@ function omniauth_install_configure_form_validate(&$form, &$form_state) {
  * Submit handler for the installation configure form
  */
 function omniauth_install_configure_form_submit(&$form, &$form_state) {
-  if (!empty($form_state['values']['openid_sso_relying_provider']['url']) {
+  if (!empty($form_state['values']['openid_sso_relying_provider']['url'])) {
     variable_set('openid_sso_relying_provider', $form_state['values']['openid_sso_relying_provider']);
   }
 
