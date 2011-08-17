@@ -56,7 +56,7 @@ function omniauth_relying_profile_tasks(&$task, $url) {
 
   // Greetings
   watchdog('Omniauth',
-    t('Welcome to Omniauth OpenID-Simple-Sign-On brought to you by !ef_link.',
+    t('Welcome to Omniauth OpenID Single Sign-On brought to you by !ef_link.',
       array(
         '!ef_link' => l('erdfisch', 'http://erdfisch.de'),
       )
@@ -82,7 +82,7 @@ function omniauth_relying_configuration() {
   $form['openid_sso_relying_provider'] = array(
     '#type' => 'fieldset',
     '#title' => t('OpenID Provider'),
-    '#description' => t('A designated OpenID Provider with Simple Sign-On support. This should be another Drupal site with !openid_provider module and !openid_sso_provider module installed and configured.', array(
+    '#description' => t('A designated OpenID Provider with Single Sign-On support. This should be another Drupal site with !openid_provider module and !openid_sso_provider module installed and configured.', array(
       '!openid_provider' => l(t('OpenID Provider'), 'http://drupal.org/project/openid_provider'),
       '!openid_sso_provider' => l(t('OpenID Single Sign On Provider'), 'http://drupal.org/project/openid_sso_provider'),
      )),

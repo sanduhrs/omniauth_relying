@@ -1,4 +1,4 @@
-name = Omniauth OpenID Single Sign On relying party
+name = Omniauth OpenID Single Sign-On relying party
 description = Select this profile to enable the Omniauth OpenID Single Sign On client setup.
 core = 7.x
 
@@ -28,4 +28,3 @@ dependencies[] = openidadmin
 dependencies[] = omniauth_relying_core
 
 files[] = omniauth_relying.profile
-
