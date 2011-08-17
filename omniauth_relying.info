@@ -1,0 +1,31 @@
+name = Omniauth OpenID Single Sign On relying party
+description = Select this profile to enable the Omniauth OpenID Single Sign On client setup.
+core = 7.x
+
+// Core modules
+dependencies[] = dblog
+dependencies[] = menu
+dependencies[] = openid
+dependencies[] = auto_nodetitle
+dependencies[] = field
+dependencies[] = number
+dependencies[] = list
+dependencies[] = text
+dependencies[] = options
+dependencies[] = toolbar
+
+// Contrib modules
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = openid_ax_api
+dependencies[] = openid_client_ax
+dependencies[] = openid_profile
+dependencies[] = openid_sso_relying
+dependencies[] = openidadmin
+
+// Features
+dependencies[] = omniauth_relying_core
+
+files[] = omniauth_relying.profile
+
