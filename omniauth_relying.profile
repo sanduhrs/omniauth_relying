@@ -46,8 +46,8 @@ function omniauth_relying_profile_modules() {
  */
 function omniauth_relying_profile_details() {
   return array(
-    'name' => 'Omniauth OpenID-Simple-Sign-On Relying Party',
-    'description' => 'Select this profile to enable the Omniauth OpenID-Simple-Sign-On Client setup.'
+    'name' => 'Omniauth OpenID Single Sign On relying party',
+    'description' => 'Select this profile to enable the Omniauth OpenID Single Sign On client setup.'
   );
 }
 
